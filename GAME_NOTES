@@ -1,0 +1,20 @@
+Before anyone joins:
+
+/gamerule spawnRadius 0
+
+After everyone joins:
+
+/give @a minecraft:bow{Unbreakable:1,Enchantments:[{id:power,lvl:100000}, {id:infinity,lvl:1}]}
+/effect give @a minecraft:mining_fatigue 999999 8 true
+/effect give @a minecraft:regeneration 1000000 255 true
+/effect give @a minecraft:saturation 1000000 255 true
+/give @a minecraft:arrow
+/effect give @a minecraft:invisibility 1000000 0 true
+/give @a minecraft:ender_pearl 5
+
+After everyone hides:
+
+/item replace entity @a armor.head with minecraft:golden_helmet{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}]}
+/item replace entity @a armor.chest with minecraft:golden_chestplate{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}]}
+/item replace entity @a armor.feet with minecraft:golden_boots{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}]}
+/item replace entity @a armor.legs with minecraft:golden_leggings{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}]}
