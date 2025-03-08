@@ -1,3 +1,9 @@
+=== RULES ===
+
+Kill the most players within an hour (or some other set time) after the game starts (keeps people moving and seeking, not only hiding). Breaking the environment or cheating (through locking yourself in an office or spawn camping, for example) is prohibited
+
+=== SETUP ===
+
 Before anyone joins:
 
 /gamerule spawnRadius 0
